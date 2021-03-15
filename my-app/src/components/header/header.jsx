@@ -1,10 +1,24 @@
 import React, { Component } from 'react';
 
+// function myApp(){
+//     return ("lalalalal")
+// }
+
  class Header extends Component{
-    state = {  }
-    render() { 
-        return ( <h1>This is my header</h1> );
+    state = { 
+        count: 0
+    }
+
+    myFunction = () =>{
+        this.setState(() => {
+            return { count: 10}});
+            console.log(this.state.count)
+     }
+
+    render() {
+        return (<h1 onClick = {this.myFunction}>{this.state.count}</h1>)   
     }
 }
+
  
 export default Header;
