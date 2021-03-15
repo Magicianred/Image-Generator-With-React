@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-// function myApp(){
-//     return ("lalalalal")
-// }
-
  class Header extends Component{
     state = { 
         count: 0
@@ -19,6 +15,5 @@ import React, { Component } from 'react';
         return (<h1 onClick = {this.myFunction}>{this.state.count}</h1>)   
     }
 }
-
  
 export default Header;
