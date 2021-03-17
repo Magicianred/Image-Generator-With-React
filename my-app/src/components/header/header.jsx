@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
+import FirstInput from '../FirstInput';
+import SecondInput from '../SecondInput';
 
- class Header extends Component{
-    state = { 
-        count: 0
-    }
-
-    myFunction = () =>{
-        this.setState(() => {
-            return { count: 10}});
-            console.log(this.state.count)
-     }
-
-    render() {
-        return (<h1 onClick = {this.myFunction}>{this.state.count}</h1>)   
+class Header extends Component {
+    state = {  }
+    render() { 
+        return ( 
+        <React.Fragment>
+            <FirstInput/>
+            <SecondInput/>
+        </React.Fragment> );
     }
 }
  
 export default Header;
+
+ 

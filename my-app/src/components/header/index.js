@@ -1,2 +1,2 @@
-import Header from './header';
-export default Header;
+import MyFunction from './header';
+export default MyFunction;
