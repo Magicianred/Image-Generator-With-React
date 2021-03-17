@@ -2,7 +2,10 @@ import React from 'react';
 
 let SecondInput = () =>{
     return(
-        <input placeholder = "Enter your quote"/>
+        <React.Fragment className = "SecondInput">
+            <input placeholder = "Enter your quote"/>
+            <button type = "submit">Submit</button>
+        </React.Fragment>
     )
 }
 export default SecondInput

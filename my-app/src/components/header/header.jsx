@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FirstInput from '../FirstInput';
 import SecondInput from '../SecondInput';
+import './style.css'
 
 class Header extends Component {
     state = {  }
