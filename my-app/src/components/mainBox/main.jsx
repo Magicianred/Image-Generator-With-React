@@ -8,7 +8,6 @@ class Main extends Component {
             <div>
                <Card name="fidosh" surname="naghiyeva" age="20"/>
                <Card name="fidosh" surname="naghiyeva" age="20"/>
-               <Card name="fidosh" surname="naghiyeva" age="20"/>
             </div>
          );
     }
