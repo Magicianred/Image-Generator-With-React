@@ -1,4 +1,27 @@
+button {
+  background-color: #7e490a;
+  border: 2px solid black;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+}
+
+button:hover {
+  color: #7e490a;
+  background-color: white;
+}
+
 input {
   width: 300px;
+  height: 30px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  outline: none;
 }
 /*# sourceMappingURL=style.css.map */

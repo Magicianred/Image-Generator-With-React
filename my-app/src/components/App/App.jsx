@@ -6,10 +6,10 @@ import './style.css';
 class App extends Component {
     render() { 
         return ( 
-            <React.Fragment>
+            <div className="app">
               <Header/>
               <Main/>
-            </React.Fragment>
+            </div>
          );
     }
 }

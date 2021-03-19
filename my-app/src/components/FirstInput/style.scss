@@ -1,0 +1,26 @@
+$baseColor : rgb(126, 73, 10);
+
+button{    
+    background-color: $baseColor;
+    border: 2px solid black;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+
+    &:hover{
+        color: $baseColor;
+        background-color: white;
+    }
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    margin: 20px;
+    outline: none;
+}
