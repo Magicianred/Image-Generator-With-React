@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../header';
+import Main from '../mainBox';
 import './style.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
         return ( 
             <React.Fragment>
               <Header/>
+              <Main/>
             </React.Fragment>
          );
     }
